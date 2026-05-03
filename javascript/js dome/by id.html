@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome!</title>
+</head>
+<body>
+  <h1 id="title">Welcome</h1>
+
+  <button onclick="changeText()">CLICK ME</button>
+
+  <script>
+    function changeText() {
+      let heading = document.getElementById("title");
+      heading.innerText = "Hello Students! Welcome to Javascript DOM";
+      heading.style.color = "blue";
+    }
+  </script>
+</body>
+</html>
